@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfedb93b-9bd4-452a-9ddd-c473fe505ce7" name="Default Changelist" comment="" />
+    <list default="true" id="dfedb93b-9bd4-452a-9ddd-c473fe505ce7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RE/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RE/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RE/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RE/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/Audi-5-1-1-1_180x130w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/acura-2_180x130w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/alfa-romeo-1_180x130w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/aston-martin_180x130w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/bentley_180x130w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/bmw_180x130w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/bugatti-5-1_180x130w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/buick_180x130w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/cadillac_180x130w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/chevrolet_180x130w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rental_exchange/car_images/car-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0002_auto_20201007_2027.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0003_car_is_featured.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0004_auto_20201010_2240.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0005_auto_20201010_2241.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0006_auto_20201010_2242.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0007_auto_20201010_2243.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0008_auto_20201010_2245.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0009_car_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0010_auto_20201011_0104.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental_exchange/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/admin/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/admin/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/blog-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/car-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/car-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/home.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,97 +54,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rental_exchange/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/rental_exchange/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RE/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rental_exchange/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="158" column="29" lean-forward="true" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="239">
+              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rental_exchange/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rental_exchange/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RE/urls.py">
+        <entry file="file://$PROJECT_DIR$/rental_exchange/urls_admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding>
-                <element signature="e#626#658#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rental_exchange/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="680">
+              <caret line="41" column="102" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="102" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -110,13 +84,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/home.html">
+        <entry file="file://$PROJECT_DIR$/rental_exchange/views_admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="244" column="66" selection-start-line="244" selection-start-column="66" selection-end-line="244" selection-end-column="66" />
+            <state relative-caret-position="6001">
+              <caret line="375" column="49" selection-start-line="375" selection-start-column="49" selection-end-line="375" selection-end-column="49" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/payments_and_accounts/transaction-history-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rental_exchange/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="53" column="19" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/car/car-create-view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2652">
+              <caret line="156" column="50" selection-start-line="133" selection-start-column="44" selection-end-line="156" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/car/car-update-view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2669">
+              <caret line="157" column="50" selection-start-line="157" selection-start-column="50" selection-end-line="157" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rental_exchange/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4811">
+              <caret line="303" selection-start-line="303" selection-end-line="303" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/booking/booking-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="66" column="303" selection-start-line="66" selection-start-column="303" selection-end-line="66" selection-end-column="303" />
             </state>
           </provider>
         </entry>
@@ -127,41 +161,77 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>gall</find>
+      <find>&lt;hr/&gt;</find>
+      <find>sub</find>
+      <find>CarDe</find>
+      <find>Comm</find>
+      <find>messages.s</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rental_exchange/templates/admin/containers/home.html" />
-        <option value="$PROJECT_DIR$/rental_exchange/templates/base.html" />
-        <option value="$PROJECT_DIR$/rental_exchange/templates/admin/containers/test.html" />
-        <option value="$PROJECT_DIR$/rental_exchange/templates/admin/base.html" />
-        <option value="$PROJECT_DIR$/rental_exchange/templates/admin/containers/blank.html" />
-        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/home.html" />
-        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/blank.html" />
-        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/about.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/feature/feature-read-view-bs.html" />
+        <option value="$PROJECT_DIR$/rental_exchange/views/admin/car_view.py" />
+        <option value="$PROJECT_DIR$/rental_exchange/views/admin/feature_view.py" />
+        <option value="$PROJECT_DIR$/rental_exchange/views/admin/fuel_type_views.py" />
+        <option value="$PROJECT_DIR$/rental_exchange/views/admin/car_views.py" />
+        <option value="$PROJECT_DIR$/rental_exchange/views/admin/__init__.py" />
+        <option value="$PROJECT_DIR$/rental_exchange/views/__init__.py" />
+        <option value="$PROJECT_DIR$/rental_exchange/__init__.py" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/blog-list.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/blog/blog-create-view-bs.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/blog/blog-delete-view-bs.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/blog/blog-read-view-bs.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/blog/blog-update-view-bs.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/blog/blog-list.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/brand/brand-create-view-bs.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/brand/brand-update-view-bs.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/brand/brand-list.html" />
         <option value="$PROJECT_DIR$/templates/rental_exchange/containers/blog.html" />
-        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/blog-single.html" />
-        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/car.html" />
-        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/car-single.html" />
-        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/contact.html" />
-        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/pricing.html" />
-        <option value="$PROJECT_DIR$/RE/urls.py" />
-        <option value="$PROJECT_DIR$/rental_exchange/urls.py" />
         <option value="$PROJECT_DIR$/templates/rental_exchange/base.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/booking-create-bsm.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/test.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/car.html" />
+        <option value="$PROJECT_DIR$/rental_exchange/urls.py" />
+        <option value="$PROJECT_DIR$/rental_exchange/forms.py" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/blog-single.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/car-single.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/bookings.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/containers/profile.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/booking/booking-accepted-list.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/booking/booking-requests.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/car/car-list.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/car/car-details-view-bsm.html" />
         <option value="$PROJECT_DIR$/templates/rental_exchange/containers/home.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/contact/vehicle-add-request-list.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/contact/vehicle-add-request-read-view-bsm.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/booking/booking-details-view-bsm.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/profile.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/booking/booking-reject-view-bsm.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/payments_and_accounts/payment-history-list.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/payments_and_accounts/vehicle-owner-account-list.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/base.html" />
+        <option value="$PROJECT_DIR$/rental_exchange/urls_admin.py" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/payments_and_accounts/transaction-history-list.html" />
+        <option value="$PROJECT_DIR$/rental_exchange/views_admin.py" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/booking/booking-list.html" />
         <option value="$PROJECT_DIR$/rental_exchange/views.py" />
+        <option value="$PROJECT_DIR$/rental_exchange/models.py" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/car/car-create-view.html" />
+        <option value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/car/car-update-view.html" />
         <option value="$PROJECT_DIR$/RE/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/rental_exchange/models.py" />
-        <option value="$PROJECT_DIR$/rental_exchange/admin.py" />
-        <option value="$PROJECT_DIR$/rental_exchange/forms.py" />
       </list>
     </option>
   </component>
@@ -169,8 +239,9 @@
     <option name="x" value="240" />
     <option name="y" value="130" />
     <option name="width" value="1440" />
-    <option name="height" value="784" />
+    <option name="height" value="785" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -187,41 +258,23 @@
             <path>
               <item name="RE" type="b2602c69:ProjectViewProjectNode" />
               <item name="RE" type="462c0819:PsiDirectoryNode" />
-              <item name="RE" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RE" type="b2602c69:ProjectViewProjectNode" />
               <item name="RE" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
               <item name="rental_exchange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RE" type="462c0819:PsiDirectoryNode" />
+              <item name="RE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RE" type="b2602c69:ProjectViewProjectNode" />
               <item name="RE" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RE" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="rental_exchange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RE" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RE" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="rental_exchange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RE" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="rental_exchange" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,17 +284,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="H:/Office/Projects/Chitra/chitra-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/rental_exchange/admin/containers/payments_and_accounts" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Ashik\RE\templates\rental_exchange\admin\containers\payments_and_accounts" />
+      <recent name="D:\Projects\Ashik\RE\templates\rental_exchange\admin\containers\booking" />
+      <recent name="D:\Projects\Ashik\RE\templates\rental_exchange\admin\containers\contact" />
+      <recent name="D:\Projects\Ashik\RE\templates\rental_exchange\admin\containers\car" />
+      <recent name="D:\Projects\Ashik\RE\templates\rental_exchange\containers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\Ashik\RE\static\rental_exchange" />
-      <recent name="D:\Projects\Ashik\RE\templates\rental_exchange" />
-      <recent name="D:\Projects\Ashik\RE" />
-      <recent name="D:\Projects\Ashik\RE\rental_exchange\static\admin" />
-      <recent name="D:\Projects\Ashik\RE\rental_exchange" />
+      <recent name="D:\Projects\Ashik\RE\templates\rental_exchange\admin\containers\user" />
+      <recent name="D:\Projects\Ashik\RE\templates\rental_exchange\admin\containers\contact" />
+      <recent name="D:\Projects\Ashik\RE\rental_exchange\views" />
+      <recent name="D:\Projects\Ashik\RE\templates\rental_exchange\admin\containers\car" />
+      <recent name="D:\Projects\Ashik\RE\templates\rental_exchange\admin\containers\brand" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -273,11 +335,11 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12417437" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28797886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -285,7 +347,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31520224" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31520224" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -294,180 +356,382 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rental_exchange/templates/admin/starter.html" />
-    <entry file="file://$PROJECT_DIR$/rental_exchange/templates/admin/index.html" />
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/home.html">
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/blog/blog-create-view-bs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/blog/blog-delete-view-bs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/blog/blog-read-view-bs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/blog/blog-update-view-bs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/blog/blog-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/rental_exchange/css/flaticon.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/brand/brand-create-view-bs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/brand/brand-update-view-bs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-column="47" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-            <element signature="n#style#0;n#sup#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#1;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#0;n#div#1;n#div#1;n#section#1;n#div#1;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#section#1;n#div#1;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="287" column="116" selection-start-line="287" selection-start-column="116" selection-end-line="287" selection-end-column="116" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/blog-single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/pricing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/car.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/car-single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="244" column="66" selection-start-line="244" selection-start-column="66" selection-end-line="244" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rental_exchange/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="45" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rental_exchange/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RE/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="296">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
           <folding>
             <element signature="e#626#658#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RE/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        <state relative-caret-position="-136">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/booking-create-bsm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="189" column="73" selection-start-line="189" selection-start-column="73" selection-end-line="189" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/brand/brand-read-view-bs.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rental_exchange/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/car.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="30" column="76" lean-forward="true" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rental_exchange/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/blog-single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2210">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/car-single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1981">
+          <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/bookings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="63" column="58" lean-forward="true" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/car/car-details-view-bsm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/containers/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3077">
+          <caret line="26" column="100" lean-forward="true" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/car/car-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="136" column="9" lean-forward="true" selection-start-line="126" selection-end-line="136" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/contact/vehicle-add-request-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="47" column="207" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/contact/vehicle-add-request-read-view-bsm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/booking/booking-requests.html" />
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/booking/booking-accepted-list.html" />
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/user/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="409" column="6" selection-start-line="409" selection-start-column="6" selection-end-line="409" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/booking/booking-details-view-bsm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="43" column="254" lean-forward="true" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/brand/brand-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="74" column="41" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="74" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/booking/booking-reject-view-bsm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/payments_and_accounts/payment-history-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/payments_and_accounts/vehicle-owner-account-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="788" column="6" selection-start-line="788" selection-start-column="6" selection-end-line="788" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RE/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3349">
+          <caret line="197" column="59" selection-start-line="197" selection-start-column="59" selection-end-line="197" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rental_exchange/urls_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="41" column="102" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rental_exchange/views_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6001">
+          <caret line="375" column="49" selection-start-line="375" selection-start-column="49" selection-end-line="375" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/payments_and_accounts/transaction-history-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rental_exchange/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="158" column="29" lean-forward="true" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
+        <state relative-caret-position="697">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rental_exchange/admin.py">
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/car/car-create-view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="2652">
+          <caret line="156" column="50" selection-start-line="133" selection-start-column="44" selection-end-line="156" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/car/car-update-view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="157" column="50" selection-start-line="157" selection-start-column="50" selection-end-line="157" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rental_exchange/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4811">
+          <caret line="303" selection-start-line="303" selection-end-line="303" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rental_exchange/forms.py">
+    <entry file="file://$PROJECT_DIR$/templates/rental_exchange/admin/containers/booking/booking-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1122">
+          <caret line="66" column="303" selection-start-line="66" selection-start-column="303" selection-end-line="66" selection-end-column="303" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

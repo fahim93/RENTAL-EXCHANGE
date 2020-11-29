@@ -19,6 +19,10 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('rental_exchange.urls')),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+                  path('default-admin/', admin.site.urls),
+                  path('admin/', include('rental_exchange.urls_admin')),
+                  path('', include('rental_exchange.urls')),
+                  path('', include('users.urls')),
+                  path('admin/', include('users.urls_admin')),
+                  path('djrichtextfield/', include('djrichtextfield.urls')),
+              ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
