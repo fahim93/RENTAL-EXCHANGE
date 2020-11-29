@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfedb93b-9bd4-452a-9ddd-c473fe505ce7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RE/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RE/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RE/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RE/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/Audi-5-1-1-1_180x130w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/acura-2_180x130w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/alfa-romeo-1_180x130w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/aston-martin_180x130w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/bentley_180x130w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/bmw_180x130w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/bugatti-5-1_180x130w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/buick_180x130w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/cadillac_180x130w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rental_exchange/brand_images/chevrolet_180x130w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rental_exchange/car_images/car-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0002_auto_20201007_2027.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0003_car_is_featured.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0004_auto_20201010_2240.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0005_auto_20201010_2241.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0006_auto_20201010_2242.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0007_auto_20201010_2243.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0008_auto_20201010_2245.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0009_car_features.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/migrations/0010_auto_20201011_0104.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rental_exchange/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rental_exchange/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/admin/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/admin/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/blog-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/car-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/car-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/car.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rental_exchange/containers/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rental_exchange/containers/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="dfedb93b-9bd4-452a-9ddd-c473fe505ce7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +290,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28797886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
