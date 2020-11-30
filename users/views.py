@@ -33,12 +33,14 @@ class SignupView(FormView):
     form_class = UserCreationForm
     template_name = 'rental_exchange/containers/signup.html'
     success_url = reverse_lazy('home')
+    success_message = 'Your Registration Has Been Completed Successfully'
 
     def form_valid(self, form):
         """ process user signup"""
         user = form.save(commit=False)
         user.user_type = 'Customer'
         user.save()
+        messages.success(self.request, 'Your Registration Has Been Completed Successfully')
         login(self.request, user)
         if user is not None:
             return HttpResponseRedirect(self.success_url)

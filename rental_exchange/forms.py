@@ -15,6 +15,7 @@ class CarForm(ModelForm):
     #     queryset=Feature.objects.all(),
     #     widget=forms.CheckboxSelectMultiple,
     #     required=True)
+    owner = forms.ModelChoiceField(queryset=User.objects.filter(user_type='CarOwner'))
 
     class Meta:
         model = Car

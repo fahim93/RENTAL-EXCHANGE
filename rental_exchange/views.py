@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.messages.views import SuccessMessageMixin
 from django.core.mail import send_mail
+from django.db.models import Q
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
 
@@ -300,9 +301,11 @@ class CarListView(ListView):
     def get_queryset(self):
         # qs = super().get_queryset()
         # filter by a variable captured from url, for example
-        # bookings = CarBooking.objects.filter(rent_status='On Going')
-
-        obj = Car.objects.filter(is_active=True, is_published=True)
+        bookings = CarBooking.objects.filter(Q(rent_status='On Going') | Q(request_status='Pending') | Q(request_status='Accepted'))
+        arr = []
+        for b in bookings:
+            arr.append(b.car.pk)
+        obj = Car.objects.filter(is_active=True, is_published=True).exclude(id__in=arr)
         # return qs.filter(name__startswith=self.kwargs['name'])
         return obj
 
@@ -310,26 +313,3 @@ class CarListView(ListView):
         context = super().get_context_data(**kwargs)
         context['featured_cars'] = Car.objects.filter(is_active=True, is_published=True, is_featured=True)
         return context
-
-# class CarBookingCreateFormView(FormView):
-#     form_class =
-
-
-# class CarBookingBSModalCreateView(BSModalCreateView):
-#     # specify the model to use
-#     model = CarBooking
-#     form_class = CreateBookingBSModalModelForm
-#     template_name = 'rental_exchange/containers/booking-create-bsm.html'
-#     success_url = reverse_lazy('home')
-#
-#     def get_context_data(self, **kwargs):
-#         context = super(CarBookingBSModalCreateView, self).get_context_data(**kwargs)
-#         context['form'] = CreateBookingBSModalModelForm(initial={'car': self.object})
-#         return context
-#
-#     def form_valid(self, form):
-#         print(self.kwargs['car_id'])
-#         form.instance.car = Car.objects.get(pk=self.kwargs['car_id'])
-#         form.instance.customer = User.objects.get(pk=self.request.user)
-#         # form.instance.engineer = Engineer.objects.get(pk=self.kwargs['pk'])
-#         return super(CarBookingBSModalCreateView, self).form_valid(form)

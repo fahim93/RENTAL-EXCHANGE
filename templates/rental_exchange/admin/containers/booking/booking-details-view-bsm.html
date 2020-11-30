@@ -41,7 +41,9 @@
                                     </tr>
                                     <tr>
                                         <th>Rent Status</th>
-                                        <td><span class="badge badge-pill {% if bookings.rent_status == 'On Going' %}badge-success{% elif bookings.rent_status == 'Closed' %}badge-danger{% else %}badge-warning{% endif %}">{{ bookings.rent_status }}</span></td>
+                                        <td>
+                                            <span class="badge badge-pill {% if bookings.rent_status == 'On Going' %}badge-success{% elif bookings.rent_status == 'Closed' %}badge-danger{% else %}badge-warning{% endif %}">{{ bookings.rent_status }}</span>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th>Rental Cost</th>
@@ -49,7 +51,9 @@
                                     </tr>
                                     <tr>
                                         <th>Payment Status</th>
-                                        <td><span class="badge badge-pill {% if bookings.payment_status == 'Paid' %}badge-success{% else %}badge-danger{% endif %}">{{ bookings.payment_status }}</span></td>
+                                        <td>
+                                            <span class="badge badge-pill {% if bookings.payment_status == 'Paid' %}badge-success{% else %}badge-danger{% endif %}">{{ bookings.payment_status }}</span>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th>Created At</th>

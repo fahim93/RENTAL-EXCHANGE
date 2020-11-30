@@ -8,12 +8,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Users</h1>
+                    <h1>Owner List</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{% url 'admin-home' %}">Home</a></li>
-                        <li class="breadcrumb-item active">Users</li>
+                        <li class="breadcrumb-item active">Owner List</li>
                     </ol>
                 </div>
             </div>
@@ -24,22 +24,34 @@
     <section class="content">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">User List</h3>
-                <button type="button" class="btn btn-info float-right"><i class="fas fa-plus"></i> Add</button>
+                <div class="row">
+                    <div class="col">
+                        <div id="table_menu"></div>
+                    </div>
+                    <div class="col">
+                        <button type="button" id="btn_add_owner" class="btn btn-info float-right"><i
+                                class="fas fa-plus"></i> Add</button>
+
+                    </div>
+                </div>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
                 <table id="example1" class="table table-bordered table-striped">
-                    <thead>
+                    <thead class="thead-dark">
                     <tr>
                         <th>Name</th>
-                        <th>Actions</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th class="text-right">Actions</th>
                     </tr>
                     </thead>
                     <tbody>
                     {% for usr in users %}
                     <tr>
-                        <td>{{ usr.first_name }}</td>
+                        <td>{{ usr.first_name }} {{ usr.last_name }}</td>
+                        <td>{{ usr.email }}</td>
+                        <td>{{ usr.phone }}</td>
                         <td class="project-actions text-right">
                             <a class="btn btn-primary btn-sm" href="#">
                                 <i class="fas fa-folder">
@@ -60,9 +72,11 @@
                     </tr>
                     {% endfor %}
                     </tbody>
-                    <tfoot>
+                    <tfoot class="thead-dark">
                     <tr>
                         <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
                         <th>Actions</th>
                     </tr>
                     </tfoot>
@@ -80,9 +94,9 @@
 <script>
   $(function () {
     $("#example1").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "responsive": true, "lengthChange": true, "autoWidth": false,
       "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+    }).buttons().container().appendTo('#table_menu');
     $('#example2').DataTable({
       "paging": true,
       "lengthChange": false,
@@ -93,6 +107,15 @@
       "responsive": true,
     });
   });
-
+   $(function () {
+    $(".bs-modal").each(function () {
+      $(this).modalForm({
+          formURL: $(this).data('form-url')
+      });
+    });
+    $("#btn_add_owner").modalForm({
+        formURL: "{% url 'admin-owner-bsm-create' %}"
+    });
+  });
 </script>
 {% endblock %}

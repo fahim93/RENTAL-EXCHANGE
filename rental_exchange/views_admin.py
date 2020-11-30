@@ -11,7 +11,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 # Create your views here.
 from django.urls import reverse_lazy
 from django.views import generic
-from django.views.generic import CreateView, UpdateView, ListView, DetailView
+from django.views.generic import CreateView, UpdateView, ListView, DetailView, FormView
 
 from RE import settings
 from RE.settings import DEFAULT_FROM_EMAIL, DEFAULT_TO_EMAIL
@@ -19,7 +19,7 @@ from rental_exchange.forms import ContactForm, CarForm, FuelModelFormBS, Feature
     BlogModelFormBS
 from rental_exchange.models import Car, System, Contact, Brand, Blog, Feature, Fuel, CarBooking, CarRegistrationRequest, \
     PaymentHistory, TransactionHistory, VehicleOwnerAccount
-from users.forms import UserCreationForm
+from users.forms import UserCreationForm, OwnerCreationForm, LoginForm
 from users.models import User
 
 
@@ -103,6 +103,51 @@ def admin_user_view(request):
         "users": users
     }
     return render(request, 'rental_exchange/admin/containers/user-list.html', context)
+
+
+class AdminListView(ListView):
+    model = User
+    context_object_name = 'users'
+    template_name = 'rental_exchange/admin/containers/user/admin-list.html'
+
+    def get_queryset(self):
+        obj = User.objects.filter(user_type='Admin')
+        return obj
+
+
+class OwnerListView(ListView):
+    model = User
+    context_object_name = 'users'
+    template_name = 'rental_exchange/admin/containers/user/owner-list.html'
+
+    def get_queryset(self):
+        obj = User.objects.filter(user_type='CarOwner')
+        return obj
+
+
+class OwnerBSModalCreateView(FormView):
+    template_name = 'rental_exchange/admin/containers/user/owner-create-view-bsm.html'
+    form_class = OwnerCreationForm
+    success_message = 'Owner is successfully registered.'
+    success_url = reverse_lazy('admin-owner-list')
+
+    def form_valid(self, form):
+        """ process user signup"""
+        user = form.save(commit=False)
+        user.user_type = 'CarOwner'
+        user.save()
+
+        return super().form_valid(form)
+
+
+class CustomerListView(ListView):
+    model = User
+    context_object_name = 'users'
+    template_name = 'rental_exchange/admin/containers/user/customer-list.html'
+
+    def get_queryset(self):
+        obj = User.objects.filter(user_type='Customer')
+        return obj
 
 
 def admin_site_default_view(request):
@@ -288,6 +333,8 @@ class BlogBSModalDeleteView(BSModalDeleteView):
     template_name = 'rental_exchange/admin/containers/blog/blog-delete-view-bs.html'
     success_message = 'Blog was deleted.'
     success_url = reverse_lazy('admin-blog')
+
+
 # < Blog Views />
 
 
@@ -383,7 +430,8 @@ def update_transaction_payment_status(request, t_id):
             acc.last_added_amount = obj.added_amount
             acc.save()
     else:
-        VehicleOwnerAccount.objects.create(account_holder=obj.booking.car.owner, total_income=obj.added_amount, last_added_amount=obj.added_amount)
+        VehicleOwnerAccount.objects.create(account_holder=obj.booking.car.owner, total_income=obj.added_amount,
+                                           last_added_amount=obj.added_amount)
     messages.success(request, 'Payment has been completed to %s' % obj.booking.car.owner)
     return redirect('admin-transaction-history-list')
 

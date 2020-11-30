@@ -47,8 +47,11 @@ urlpatterns = [
     path('vehicle-add-request/list/', views.VehicleAddRequestListView.as_view(), name='admin-vehicle-add-request-list'),
     path('vehicle-add-request/details/<int:pk>/', views.VehicleAddRequestBSModalReadView.as_view(), name='admin-vehicle-add-request-details-view-bsm'),
     # users
-    path('users/', views.admin_user_view, name='admin-users'),
+    path('users/admin/list/', views.AdminListView.as_view(), name='admin-admin-list'),
+    path('users/owner/list/', views.OwnerListView.as_view(), name='admin-owner-list'),
+    path('users/customer/list/', views.CustomerListView.as_view(), name='admin-customer-list'),
     path('user/profile/<int:pk>/', views.UserProfileDetailView.as_view(), name='admin-user-profile-detail-view'),
+    path('user/owner/add/', views.OwnerBSModalCreateView.as_view(), name='admin-owner-bsm-create'),
 
     # Payments and Accounts
     path('payments-and-accounts/payment-history/list/', views.PaymentHistoryListView.as_view(), name='admin-payment-history-list'),

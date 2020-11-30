@@ -76,8 +76,14 @@
                         <span class="subheading">per / {{ car.price_variable }}</span>
                     </div>
                 </div>
+                {% if not user.is_authenticated or user.user_type != 'Customer' %}
+                <div class="row mt-4">
+                    <a href="{% url 'login' %}" class="btn btn-primary btn-outline-black mr-1 text-uppercase">Book now</a>
+                </div>
+                {% endif %}
             </div>
         </div>
+        {% if user.is_authenticated and user.user_type == 'Customer' %}
         <div class="row">
             <div class="col-md-12">
                 <form method="post" action="{% url 'car-detail' car.id %}" enctype="multipart/form-data">
@@ -122,6 +128,7 @@
                 </form>
             </div>
         </div>
+        {% endif %}
         <!--        <div class="row">-->
         <!--            <div class="col-md d-flex align-self-stretch ftco-animate">-->
         <!--                <div class="media block-6 services">-->
